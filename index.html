@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de tareas</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <div class="seccion-lista-tareas">
+    <div class="section-todo-list">
         <h4>Almacenamiento Local</h4>
         <h2>Lista de tareas</h2>
-        <div class="input-boton">
+        <div class="input-btn">
             <input type="text">
-            <button onclick="addTask()">Agregar tarea</button>
+            <button onclick="addTasks()">Agregar tarea</button>
         </div>
-        <div class="lista-tareas">
+        <div class="list-tasks">
             <ul>
-                <li>Nombre de la tarea <span>X</span></li>
-                <li>Nombre de la tarea <span>X</span></li>
-                <li>Nombre de la tarea <span>X</span></li>
-                <li>Nombre de la tarea <span>X</span></li>
+                <!-- <li>nombre de tareas <span>X</span></li>
+                <li>tareas <span>X</span></li>
+                <li>tareas <span>X</span></li>
+                <li>tareas <span>X</span></li> -->
             </ul>
         </div>
-        <button class="borrar-todo" onclick="deleteAll()">Borrar todo</button>
+        <button class="remove-all" onclick="deleteAll()">Borrar todo</button>
     </div>
+    <footer>
+        <p class="autor">Por <a href="https://github.com/SuperMarcOne" target="_blank">Marcos Solinas</a></p>
+    </footer>
 </body>
 </html>
