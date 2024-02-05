@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de tareas</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js"></script>
 </head>
 <body>
-    
+    <div class="seccion-lista-tareas">
+        <h4>Almacenamiento Local</h4>
+        <h2>Lista de tareas</h2>
+        <div class="input-boton">
+            <input type="text">
+            <button onclick="addTask()">Agregar tarea</button>
+        </div>
+        <div class="lista-tareas">
+            <ul>
+                <li>Nombre de la tarea <span>X</span></li>
+                <li>Nombre de la tarea <span>X</span></li>
+                <li>Nombre de la tarea <span>X</span></li>
+                <li>Nombre de la tarea <span>X</span></li>
+            </ul>
+        </div>
+        <button class="borrar-todo" onclick="deleteAll()">Borrar todo</button>
+    </div>
 </body>
 </html>
